@@ -82,7 +82,7 @@ export const siteConfig = {
         "5 A*, 4 A, 2 B",
         "School Football Team",
         "Badminton Club",
-        "Silver DofE"
+        "Completed Silver DofE"
       ],
     },
   ],
@@ -92,10 +92,10 @@ export const siteConfig = {
       qualification: "CS50x Course",
       dateRange: "2023 - 2024",
       achievements: [
-        "Programming, Professional Issues, Concepts of Computer Science, Modelling, Computing Systems",
-        "Events Co-ordinator Swansea Mallu Soc",
-        "Sports Rep Swansea Asian Society",
-        "Football, Badminton, Basketball, Chess",
+        "Gained strong understanding of algorithms, data structures, and computational thinking",
+        "Programmed in Python, C, and SQL, developing problem solving and coding proficiency",
+        "Built web development projects with HTML, CSS, and JavaScript, reinforcing full stack concepts",
+        "Practiced debugging, testing, and version control, preparing for real world software projects",
       ],
     },
     {
@@ -103,10 +103,10 @@ export const siteConfig = {
       qualification: "Flying Start Program",
       dateRange: "2019 - 2020",
       achievements: [
-        "Programming, Professional Issues, Concepts of Computer Science, Modelling, Computing Systems",
-        "Events Co-ordinator Swansea Mallu Soc",
-        "Sports Rep Swansea Asian Society",
-        "Football, Badminton, Basketball, Chess",
+        "Explored advanced physics concepts beyond standard curriculum, enhancing analytical skills",
+        "Attended weekly lectures and hands on sessions, practicing scientific reasoning and modelling",
+        "Completed problem solving tasks requiring critical thinking and data analysis",
+        "Built a strong foundation for STEM related learning and research approaches",
       ],
     },
     {
@@ -114,10 +114,10 @@ export const siteConfig = {
       qualification: "Technology & Engineering Couse",
       dateRange: "2020 - 2020",
       achievements: [
-        "Programming, Professional Issues, Concepts of Computer Science, Modelling, Computing Systems",
-        "Events Co-ordinator Swansea Mallu Soc",
-        "Sports Rep Swansea Asian Society",
-        "Football, Badminton, Basketball, Chess",
+        "Worked in international teams to design and build functional websites",
+        "Learned to apply engineering and design principles to practical challenges",
+        "Presented project outcomes to peers and mentors, improving communication and presentation skills",
+        "Gained experience in collaboration, planning, and iterative problem solving",
       ],
     },
   ],
