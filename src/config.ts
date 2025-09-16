@@ -91,10 +91,10 @@ export const siteConfig = {
       location: "Harvard University Online",
       qualification: "CS50x Course",
       dateRange: "2023 - 2024",
-      achievements: [
+      summarys: [
         "Gained strong understanding of algorithms, data structures, and computational thinking",
-        "Programmed in Python, C, and SQL, developing problem solving and coding proficiency",
-        "Built web development projects with HTML, CSS, and JavaScript, reinforcing full stack concepts",
+        "Programmed in Python, C, and SQL, developing coding proficiency",
+        "Built web development projects with HTML, CSS, and JavaScript",
         "Practiced debugging, testing, and version control, preparing for real world software projects",
       ],
     },
@@ -102,9 +102,9 @@ export const siteConfig = {
       location: "University of Oxford, Department of Physics",
       qualification: "Flying Start Program",
       dateRange: "2019 - 2020",
-      achievements: [
+      summarys: [
         "Explored advanced physics concepts beyond standard curriculum, enhancing analytical skills",
-        "Attended weekly lectures and hands on sessions, practicing scientific reasoning and modelling",
+        "Attended weekly lectures and hands on sessions, practicing scientific reasoning",
         "Completed problem solving tasks requiring critical thinking and data analysis",
         "Built a strong foundation for STEM related learning and research approaches",
       ],
@@ -113,7 +113,7 @@ export const siteConfig = {
       location: "Oxford Scholastica",
       qualification: "Technology & Engineering Couse",
       dateRange: "2020 - 2020",
-      achievements: [
+      summarys: [
         "Worked in international teams to design and build functional websites",
         "Learned to apply engineering and design principles to practical challenges",
         "Presented project outcomes to peers and mentors, improving communication and presentation skills",
