@@ -8,6 +8,7 @@ export const siteConfig = {
     linkedin: "https://linkedin.com/in/alisterdavid/",
     github: "https://github.com/alisterd1503",
   },
+  cv: "/AlistersCV.pdf",
   aboutMe:
     "Adaptable and motivated aspiring software engineer with hands on experience in full stack development, real time systems, and data visualisation. Seeking a junior software or apprenticeship role to build on industry experience and contribute meaningfully to a development team.",
   skills: ["Javascript", "React", "Node.js", "Python", "Python", "Docker", "PostgreSQL", "Git"],
