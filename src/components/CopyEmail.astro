@@ -1,0 +1,63 @@
+---
+const { email } = Astro.props;
+---
+
+<a
+  href={email}
+  aria-label="Copy Email"
+  class="relative transition-colors duration-300 hover:text-[var(--accent-color)]"
+  data-copy-email={email}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
+  >
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 
+         2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 
+         0 0 1 -2.667 -2.667z"
+    />
+    <path
+      d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 
+         2 -2h10c.75 0 1.158 .385 1.5 1"
+    />
+  </svg>
+
+  <!-- Tooltip -->
+  <span
+    class="absolute -top-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1 opacity-0 transition-opacity duration-300 pointer-events-none"
+    id="copy-tooltip"
+  >
+    Copied!
+  </span>
+</a>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const btn = document.querySelector("[data-copy-email]");
+        const tooltip = btn?.querySelector("#copy-tooltip") as HTMLElement | null;
+
+        btn?.addEventListener("click", (e) => {
+            e.preventDefault();
+            const email = btn.getAttribute("data-copy-email");
+
+            if (email) {
+                navigator.clipboard.writeText(email).then(() => {
+                    if (tooltip) {
+                        tooltip.style.opacity = "1";
+                        setTimeout(() => (tooltip.style.opacity = "0"), 1500);
+                    }
+                });
+            }
+        });
+    });
+</script>

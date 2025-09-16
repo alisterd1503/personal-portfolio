@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of Alister David",
   accentColor: "#1d4ed8",
   social: {
-    email: "alisterdavid03@mgmail.com",
+    email: "alisterdavid03@gmail.com",
     linkedin: "https://linkedin.com/in/alisterdavid/",
     github: "https://github.com/alisterd1503",
   },
