@@ -22,18 +22,6 @@ const hasCertification = siteConfig.certification && siteConfig.certification.le
         </a>
       </li>
       {
-        hasProjects && (
-          <li>
-            <a
-              href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Projects
-            </a>
-          </li>
-        )
-      }
-      {
         hasExperience && (
           <li>
             <a
@@ -41,6 +29,18 @@ const hasCertification = siteConfig.certification && siteConfig.certification.le
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Experience
+            </a>
+          </li>
+        )
+      }
+      {
+        hasProjects && (
+          <li>
+            <a
+              href="#projects"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Projects
             </a>
           </li>
         )
