@@ -4,7 +4,8 @@ import { siteConfig } from "../config";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
-const hasCertification = siteConfig.certification && siteConfig.certification.length > 0;
+const hasCertification =
+  siteConfig.certification && siteConfig.certification.length > 0;
 ---
 
 <header
@@ -69,6 +70,32 @@ const hasCertification = siteConfig.certification && siteConfig.certification.le
           </li>
         )
       }
+      <li>
+        <button
+          id="theme-toggle"
+          type="button"
+          class="text-gray-700 hover:text-black transition-colors font-medium p-2 rounded cursor-pointer"
+          aria-label="Toggle theme"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-sun-moon"
+            ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+              d="M9.173 14.83a4 4 0 1 1 5.657 -5.657"></path><path
+              d="M11.294 12.707l.174 .247a7.5 7.5 0 0 0 8.845 2.492a9 9 0 0 1 -14.671 2.914"
+            ></path><path d="M3 12h1"></path><path d="M12 3v1"></path><path
+              d="M5.6 5.6l.7 .7"></path><path d="M3 21l18 -18"></path></svg
+          >
+        </button>
+      </li>
     </ul>
   </nav>
 </header>
@@ -80,6 +107,19 @@ const hasCertification = siteConfig.certification && siteConfig.certification.le
       header?.classList.add("bg-white/80", "backdrop-blur-sm");
     } else {
       header?.classList.remove("bg-white/80", "backdrop-blur-sm");
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleBtn = document.getElementById("theme-toggle");
+    const html = document.documentElement;
+
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", () => {
+        html.classList.toggle("dark");
+      });
     }
   });
 </script>

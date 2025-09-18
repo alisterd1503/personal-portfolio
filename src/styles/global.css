@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+html {
+  transition: filter 0.5s ease;
+}
+
+html.dark {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 body {
   font-family: 'IBM Plex Mono', monospace;
+  background-color: white;
 }
