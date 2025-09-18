@@ -14,7 +14,7 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js", "Python", "Python", "Docker", "PostgreSQL", "Git"],
   projects: [
     {
-      name: "Ripple - React Chat App",
+      name: "Ripple - Chat App",
       description:
         "a secure real time chat app with end-to-end encryption, online presence, JWT auth, and a Node.js + PostgreSQL backend.",
       link: "https://ripple-chat.netlify.app/",
