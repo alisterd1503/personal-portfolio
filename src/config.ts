@@ -50,6 +50,20 @@ export const siteConfig = {
         "Developed interactive data visualisation tools (HTML Canvas, Chart.js)",
         "Collaborated on full stack features in a secure, high-performance environment"
       ],
+      projects: [
+      {
+        name: "Dashboard Export Tool",
+        pdf: "/AlistersCV.pdf",
+      },
+      {
+        name: "Real-Time Device Integration",
+        pdf: "/RealTimeDevice.pdf",
+      },
+      {
+        name: "Data Visualisation Platform",
+        pdf: "/DataVisualisation.pdf",
+      }
+    ]
     },
   ],
   education: [
@@ -112,7 +126,7 @@ export const siteConfig = {
     },
     {
       location: "Oxford Scholastica",
-      qualification: "Technology & Engineering Couse",
+      qualification: "Technology & Engineering Course",
       dateRange: "2020 - 2020",
       summarys: [
         "Worked in international teams to design and build functional websites",
