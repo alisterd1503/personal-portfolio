@@ -57,11 +57,11 @@ export const siteConfig = {
       },
       {
         name: "Real-Time Device Integration",
-        pdf: "/RealTimeDevice.pdf",
+        pdf: "/AlistersCV.pdf",
       },
       {
         name: "Data Visualisation Platform",
-        pdf: "/DataVisualisation.pdf",
+        pdf: "/AlistersCV.pdf",
       }
     ]
     },
